@@ -1,0 +1,30 @@
+body {
+  background: #53aa5f;
+  font-family: Arial;
+}
+
+.container {
+  width: 300px;
+  background: white;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100px;
+  background-color: rgb(31, 180, 43);
+  color: wheat;
+  font-size: 20px;
+}

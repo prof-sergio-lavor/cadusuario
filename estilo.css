@@ -1,0 +1,43 @@
+/* ====== TABELA ====== */
+.tabela {
+  width: 100%;                /* Faz a tabela ocupar toda a largura do container */
+  border-collapse: collapse;  /* Junta bordas (evita bordas duplas) */
+  margin-top: 10px;           /* Espaço acima da tabela */
+}
+
+.tabela th, .tabela td {
+  border: 1px solid #ddd;     /* Borda fina cinza em cada célula */
+  padding: 8px;               /* Espaço interno (deixa mais “confortável”) */
+  text-align: left;           /* Texto alinhado à esquerda */
+}
+
+.tabela th {
+  background: #f2f2f2;   
+       /* Cor de fundo do cabeçalho */
+}
+
+/* ====== LINKS COM CARA DE BOTÃO ====== */
+.btn {
+  display: inline-block;      /* Permite padding e “forma de botão” */
+  padding: 6px 10px;          /* Espaço interno do botão */
+  text-decoration: none;      /* Remove sublinhado do link */
+  border-radius: 6px;         /* Arredonda cantos */
+  color: white;               /* Texto branco */
+  font-size: 14px;            /* Tamanho da fonte */
+}
+
+.editar {
+  background: #3b82f6;        /* Azul para editar */
+}
+
+.excluir {
+  background: #ef4444;        /* Vermelho para excluir */
+}
+
+/* Define uma largura fixa para a coluna de ações */
+/* Coluna de ações (Editar / Excluir) */
+.col-acoes {
+  width: 180px;          /* Reserva espaço para os dois botões */
+  text-align: center;   /* Centraliza os botões na célula */
+}
+
